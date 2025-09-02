@@ -1,3 +1,5 @@
 body {
-  background-color: jessica;
+  background-color: #83294a;
+  background-image: url('images/image.jpg');
+  background-size: cover;
 }
