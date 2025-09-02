@@ -22,9 +22,20 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 a:visited {
   text-decoration: line-through;
   color: rgba(255,255,255,.5);
 }
+
+a:visited:hover {
+  text-decoration: line-through;
+  color: rgba(255,255,255,.5);
+}
+
