@@ -25,12 +25,16 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  text-decoration: line-through;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 a:hover {
   text-decoration: underline;
 }
 
-a:visited {
-  text-decoration: line-through;
-  color: rgba(255,255,255,.5);
+a:active {
+  text-decoration: underline;
 }
 
