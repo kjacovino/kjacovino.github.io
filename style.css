@@ -34,8 +34,3 @@ a:visited {
   color: rgba(255,255,255,.5);
 }
 
-a:visited:hover {
-  text-decoration: line-through;
-  color: rgba(255,255,255,.5);
-}
-
