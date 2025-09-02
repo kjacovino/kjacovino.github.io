@@ -38,3 +38,6 @@ a:active {
   text-decoration: underline;
 }
 
+ul {
+  list-style-type: square;
+}
