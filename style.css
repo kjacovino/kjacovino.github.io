@@ -12,10 +12,19 @@ body {
   background-repeat: no-repeat; /* no tiling */
   background-size: cover; /* stretch to fill screen */
   font-family: "Lexend Deca", sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Gloria Hallelujah", "Comic Sans", sans-serif;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  text-decoration: line-through;
+  color: rgba(255,255,255,.5);
 }
