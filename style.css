@@ -9,4 +9,6 @@ body {
   );
   background-repeat: no-repeat; /* no tiling */
   background-size: cover; /* stretch to fill screen */
+  font-family: 'Arial', sans-serif;
+  color: white;
 }
