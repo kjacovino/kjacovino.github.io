@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Lexend+Deca:wght@100..900&display=swap');
+
 body {
   margin: 0; /* remove default browser margin */
   min-height: 100vh; /* ensure body covers the viewport */
@@ -9,6 +11,10 @@ body {
   );
   background-repeat: no-repeat; /* no tiling */
   background-size: cover; /* stretch to fill screen */
-  font-family: 'Arial', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gloria Hallelujah", "Comic Sans", sans-serif;
 }
