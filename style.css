@@ -14,6 +14,8 @@ body {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 200;
   color: white;
+  display: flex;
+  flex-wrap: wrap; /* lets content wrap on small screens */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,4 +42,30 @@ a:active {
 
 ul {
   list-style-type: square;
+}
+
+/* Main section: 3/4 width */
+section.main {
+  flex: 3; /* grow ratio */
+  padding: 1rem;
+  min-width: 250px; /* prevent being too narrow */
+}
+
+/* Aside: 1/4 width */
+aside {
+  flex: 1; /* smaller ratio */
+  padding: 1rem;
+  min-width: 200px;
+}
+
+/* Responsive: stack columns on small screens */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+  section.main, 
+  aside {
+    flex: 1 0 100%;
+    min-width: auto;
+  }
 }
