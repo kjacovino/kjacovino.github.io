@@ -16,6 +16,8 @@ body {
   color: white;
   display: flex;
   flex-wrap: wrap; /* lets content wrap on small screens */
+  gap: 1rem;        /* even space between columns */
+  padding: 1rem;    /* even space around the edge */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,35 +46,24 @@ ul {
   list-style-type: square;
 }
 
-/* Main section: 3/4 width */
 section.main {
-  flex: 3; /* grow ratio */
+  flex: 3;
   padding: 1rem;
   min-width: 250px;
   background: black;
   border-radius: 24px;
-  margin: 1rem; /* space around the box */
 }
 
-/* Aside: 1/4 width */
 aside {
   flex: 1;
   padding: 1rem;
   min-width: 200px;
   background: #6d0350;
   border-radius: 24px;
-  margin: 1rem; /* space around the box */
 }
 
-/* Responsive: stack columns on small screens */
 @media (max-width: 768px) {
   body {
     flex-direction: column;
-  }
-  section.main, 
-  aside {
-    flex: 1 0 100%;
-    min-width: auto;
-    margin: 0.5rem 1rem; /* narrower margins on mobile */
   }
 }
