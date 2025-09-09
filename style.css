@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=UnifrakturMaguntia&display=swap');
 
 body {
-  margin: 0; /* remove default browser margin */
+  margin: 0;
+  min-height: 100vh; /* ensures background fills screen */
   background-image: url('images/graveyard.jpg');
-  background-repeat: no-repeat; /* no tiling */
-  background-size: cover; /* stretch to fill screen */
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 200;
   color: white;
+}
+
+/* New wrapper for flex layout */
+.wrapper {
   display: flex;
-  flex-wrap: wrap; /* lets content wrap on small screens */
-  gap: 1rem;        /* even space between columns */
-  padding: 1rem;    /* even space around the edge */
+  flex-wrap: wrap;
+  gap: 1rem;       /* even space between columns */
+  padding: 1rem;   /* even space around the edge */
+  align-items: flex-start; /* prevents boxes from stretching */
 }
 
 h1, h2, h3, h4, h5, h6 {
