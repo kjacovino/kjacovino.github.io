@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Lexend+Deca:wght@100..900&display=swap');
 
 body {
   margin: 0;
@@ -22,7 +22,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "UnifrakturMaguntia", cursive;
+  font-family: "Almendra Display", serif;
 }
 
 h1 {
