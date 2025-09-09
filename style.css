@@ -8,7 +8,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Lexend Deca", sans-serif;
-  font-weight: 200;
+  font-weight: 100;
   color: white;
 }
 
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 4em;
 }
 
 h2 {
@@ -68,6 +68,9 @@ section.hero {
   padding: 7rem;
   min-width: 250px;
   text-align: center;
+}
+section.hero p {
+  font-size:1.5em;
 }
 
 section.main {
