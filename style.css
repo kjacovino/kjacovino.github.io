@@ -86,7 +86,6 @@ section.main {
   background-color: rgba(0, 0, 0, 0.6); /* black with 60% opacity */
   backdrop-filter: blur(6px);           /* blur the background behind */
   -webkit-backdrop-filter: blur(6px);   /* Safari support */
-  border-radius: 24px;
 }
 
 aside {
@@ -96,7 +95,6 @@ aside {
   background-color: rgba(0, 0, 0, 0.6); /* black with 60% opacity */
   backdrop-filter: blur(6px);           /* blur the background behind */
   -webkit-backdrop-filter: blur(6px);   /* Safari support */
-  border-radius: 24px;
 }
 
 @media (max-width: 768px) {
