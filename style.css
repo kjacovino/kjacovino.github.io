@@ -33,6 +33,10 @@ h2 {
   font-size: 2em;
 }
 
+p, ul, ol {
+  line-height:1.2em;
+}
+
 a {
   color: white;
   text-decoration: none;
