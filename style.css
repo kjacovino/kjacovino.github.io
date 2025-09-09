@@ -68,6 +68,8 @@ section.hero {
   padding: 7rem;
   min-width: 250px;
   text-align: center;
+  width: 50vw;
+  margin: auto;
 }
 section.hero p {
   font-size:1.5em;
