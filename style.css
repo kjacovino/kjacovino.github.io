@@ -2,7 +2,6 @@
 
 body {
   margin: 0; /* remove default browser margin */
-  min-height: 100vh; /* ensure body covers the viewport */
   background-image: url('images/graveyard.jpg');
   background-repeat: no-repeat; /* no tiling */
   background-size: cover; /* stretch to fill screen */
