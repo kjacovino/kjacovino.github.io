@@ -63,7 +63,7 @@ section.hero {
 
 section.main {
   flex: 3;
-  padding: 1rem;
+  padding: 1rem 2rem;
   min-width: 250px;
   background-color: rgba(0, 0, 0, 0.6); /* black with 60% opacity */
   backdrop-filter: blur(6px);           /* blur the background behind */
@@ -73,7 +73,7 @@ section.main {
 
 aside {
   flex: 1;
-  padding: 1rem;
+  padding: 1rem 2rem;
   min-width: 200px;
   background-color: rgba(0, 0, 0, 0.6); /* black with 60% opacity */
   backdrop-filter: blur(6px);           /* blur the background behind */
