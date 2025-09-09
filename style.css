@@ -63,6 +63,7 @@ section.hero {
   backdrop-filter: blur(6px);           /* blur the background behind */
   -webkit-backdrop-filter: blur(6px);   /* Safari support */
   border-radius: 24px;
+  text-align: center;
 }
 
 section.main {
