@@ -57,12 +57,8 @@ ul {
 
 section.hero {
   margin: 1rem
-  padding: 1rem;
+  padding: 3rem;
   min-width: 250px;
-  background-color: rgba(0, 0, 0, 0.6); /* black with 60% opacity */
-  backdrop-filter: blur(6px);           /* blur the background behind */
-  -webkit-backdrop-filter: blur(6px);   /* Safari support */
-  border-radius: 24px;
   text-align: center;
 }
 
