@@ -79,6 +79,20 @@ section.hero p {
   font-size:1.5em;
 }
 
+ul.navigation {
+  list-style: none;      /* remove bullets */
+  margin: 0;             /* remove default spacing */
+  padding: 0;
+  display: flex;         /* make list items sit side by side */
+  gap: 1rem;             /* space between items */
+}
+
+ul.navigation li a {
+  text-decoration: none; /* remove underline */
+  color: inherit;        /* keep text color consistent */
+}
+
+
 section.main {
   flex: 3;
   padding: 1rem 2rem;
