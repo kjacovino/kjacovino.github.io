@@ -79,18 +79,22 @@ section.hero p {
   font-size:1.5em;
 }
 
-ul.navigation {
-  list-style: none;      /* remove bullets */
-  margin: 0;             /* remove default spacing */
+.navigation {
+  list-style: none;     /* remove bullets */
+  margin: 0;
   padding: 0;
-  display: flex;         /* make list items sit side by side */
-  gap: 1rem;             /* space between items */
+  display: flex;        /* horizontal layout */
+  justify-content: center; /* center the list */
+  gap: 2rem;            /* space between items */
 }
 
-ul.navigation li a {
-  text-decoration: none; /* remove underline */
-  color: inherit;        /* keep text color consistent */
+.navigation li a {
+  display: block;       /* makes padding clickable */
+  padding: 0.5rem 1rem; /* space around each link */
+  text-decoration: none;
+  color: inherit;
 }
+
 
 
 section.main {
